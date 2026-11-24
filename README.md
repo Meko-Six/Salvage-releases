@@ -1,23 +1,27 @@
 # Salvage
 
-Salvage is a macOS app for DJs and anyone with music stranded on an old iPad. Plug the iPad in over USB and Salvage reads its music library read-only, shows what is recoverable for free, and copies your tracks out, named and foldered by artist and album.
+Salvage is a Mac app that copies the music you own — MP3 and AAC files from Beatport, Bandcamp or your own rips — off an old iPad or iPhone, read-only, over USB.
+
+It's for DJs and anyone with music stranded on an old iPad or iPhone. Plug it in: Salvage reads the library and shows what can be recovered, playlist by playlist, for free. Then it copies your tracks out, named and foldered by artist and album, with the device's playlists as `.m3u8` files.
 
 **Website:** https://salvagemusic.com
 
 ## Download
 
-Signed, notarized builds are published on the [Releases](https://github.com/Meko-Six/Salvage-releases/releases) page. Salvage 1.0 is coming soon.
+**[Download Salvage.dmg](https://github.com/Meko-Six/Salvage-releases/releases/latest/download/Salvage.dmg)** (the latest release), or see every version on the [Releases](https://github.com/Meko-Six/Salvage-releases/releases) page.
 
-The download is free: browse the iPad's library and see what can be recovered. A one-time purchase inside the app unlocks copying.
+Open the DMG and drag Salvage to Applications. It is signed with a Developer ID and notarized by Apple, so it opens without a warning.
+
+Free to check. Pay only to copy: connecting, listing and searching are free, and a one-time purchase inside the app unlocks copying. Refund within 14 days if copying fails.
 
 ## Requirements
 
-- macOS 14 or later, on Apple silicon or Intel.
-- A paired, unlocked iPad connected over USB.
+- A Mac with Apple silicon or Intel, running macOS 14 or later.
+- An iPad or iPhone that has trusted this Mac, unlocked and connected with a USB cable.
 
 ## What it won't do
 
-Apple Music and iTunes Match downloads are FairPlay-protected. Salvage marks them as **Skipped** and never decrypts them. It recovers files that are already yours to keep. Nothing on the iPad is written, moved or deleted.
+Apple Music and iTunes Match downloads are protected by FairPlay. Salvage detects and skips them, and never decrypts them. Nothing on the iPad or iPhone is written, moved or deleted.
 
 ## Support
 
